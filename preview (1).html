@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#10181d"><title>NYC Fire Extinguisher Services — Concept</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#11191e;--cream:#f5f2eb;--ember:#d6262c;--muted:#aab4b6}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#10171b;color:var(--cream);font-family:'DM Sans',Arial,sans-serif}button,a{font:inherit}a{text-decoration:none;color:inherit}.hero{position:relative;isolation:isolate;min-height:760px;min-height:100svh;overflow:hidden;background:#111a20}.hero__video,.hero__shade,.hero__grid{position:absolute;inset:0;width:100%;height:100%}.hero__video{object-fit:cover;z-index:-4;opacity:.95}.hero__shade{z-index:-3;background:linear-gradient(90deg,rgba(8,14,18,.97) 0%,rgba(9,15,19,.87) 36%,rgba(8,14,18,.47) 72%,rgba(8,14,18,.35) 100%),linear-gradient(0deg,rgba(8,13,17,.97),transparent 42%)}.hero__grid{z-index:-2;opacity:.32;background-image:linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:calc(100% / 6) 100%;mask-image:linear-gradient(90deg,transparent,#000 30%,#000 95%)}.glow{position:absolute;right:3%;top:17%;height:410px;width:410px;border-radius:50%;background:radial-gradient(circle,rgba(232,75,48,.15),transparent 65%);filter:blur(12px);pointer-events:none}.nav{max-width:1440px;margin:auto;padding:28px clamp(24px,5vw,78px);display:flex;align-items:center;justify-content:space-between;gap:28px;border-bottom:1px solid rgba(255,255,255,.14)}.brand{display:inline-flex;align-items:center;gap:13px;flex-shrink:0}.brand__mark{height:39px;width:39px;display:grid;place-items:center;position:relative;border:2px solid var(--ember);clip-path:polygon(0 0,100% 0,100% 72%,72% 100%,0 100%)}.brand__mark:before{content:'';width:13px;height:17px;border-left:3px solid white;border-bottom:3px solid white;transform:skew(-18deg) rotate(-45deg);margin-top:-7px}.brand__text{display:flex;flex-direction:column;font:800 17px/1.04 Manrope,sans-serif;letter-spacing:.015em}.brand__text small{font-size:9px;letter-spacing:.36em;color:#c4cbca;margin-top:5px}.nav__links{display:flex;align-items:center;gap:clamp(20px,2.7vw,42px);font-size:13px;font-weight:600;color:#d2d9d8}.nav__links a:hover,.nav__links a:focus-visible{color:#fff}.nav__cta{display:inline-flex;align-items:center;gap:19px;border:1px solid rgba(255,255,255,.4);padding:12px 13px 12px 18px;text-transform:uppercase;font-size:11px;letter-spacing:.12em;font-weight:700;white-space:nowrap;transition:background .2s,border .2s}.nav__cta:hover{background:var(--ember);border-color:var(--ember)}.arrow{display:grid;place-items:center;width:28px;height:28px;background:var(--ember);color:#fff;font-size:19px;line-height:1}.nav__cta:hover .arrow{background:rgba(0,0,0,.15)}.hero__inner{max-width:1440px;margin:auto;padding:clamp(90px,12vh,160px) clamp(24px,5vw,78px) 132px;position:relative}.kicker{display:flex;align-items:center;gap:12px;color:#e9aa9a;font-size:11px;font-weight:700;letter-spacing:.25em;text-transform:uppercase;margin-bottom:33px}.kicker:before{content:'';width:35px;height:1px;background:var(--ember)}h1{font-family:Manrope,Arial,sans-serif;font-size:clamp(52px,6.45vw,104px);line-height:1.075;letter-spacing:-.066em;font-weight:700;max-width:940px;margin:0}h1 span{color:var(--ember)}.lead{max-width:540px;font-size:clamp(15px,1.45vw,18px);line-height:1.8;color:#bdc8c9;margin:29px 0 36px}.actions{display:flex;flex-wrap:wrap;gap:15px}.button{min-height:56px;padding:0 24px;display:inline-flex;align-items:center;justify-content:center;gap:35px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.11em;transition:transform .2s,background .2s}.button:hover{transform:translateY(-3px)}.button--main{background:var(--ember);color:#fff}.button--main:hover{background:#f46140}.button--ghost{border:1px solid rgba(255,255,255,.3);background:rgba(255,255,255,.04)}.button--ghost:hover{background:rgba(255,255,255,.11)}.button svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2}.hero__bottom{position:absolute;left:0;right:0;bottom:0;border-top:1px solid rgba(255,255,255,.16);background:rgba(9,16,19,.32);backdrop-filter:blur(10px)}.hero__bottom-inner{max-width:1440px;margin:auto;padding:23px clamp(24px,5vw,78px);display:flex;align-items:center;justify-content:space-between;gap:30px}.facts{display:flex;gap:clamp(26px,5vw,84px)}.fact{font-size:10px;color:#9ca9aa;letter-spacing:.12em;text-transform:uppercase}.fact strong{display:block;color:#f3f2ed;font-size:12px;letter-spacing:.05em;margin-top:6px}.scroll{font-size:10px;text-transform:uppercase;letter-spacing:.2em;color:#b7c3c3;white-space:nowrap}.scroll span{color:var(--ember);margin-left:12px}.eyebrow{position:absolute;right:clamp(24px,5vw,78px);top:46%;font-size:10px;letter-spacing:.28em;writing-mode:vertical-rl;color:rgba(255,255,255,.55)}.rise{animation:rise .9s ease both}.lead.rise{animation-delay:.14s}.actions.rise{animation-delay:.26s}@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}@media(max-width:850px){.nav__links{display:none}.eyebrow{display:none}.hero__inner{padding-top:110px}.hero__shade{background:linear-gradient(90deg,rgba(8,14,18,.97),rgba(8,14,18,.7)),linear-gradient(0deg,#0a1115,transparent 60%)}}@media(max-width:600px){.hero{min-height:790px;min-height:100svh}.nav{padding:20px 22px}.brand__text{font-size:13px}.brand__text small{font-size:7px}.brand__mark{width:34px;height:34px}.nav__cta{font-size:0;padding:7px;gap:0;border:none}.nav__cta .arrow{width:34px;height:34px;font-size:22px}.hero__inner{padding:105px 22px 175px}.kicker{font-size:9px;letter-spacing:.16em;margin-bottom:24px}h1{font-size:clamp(49px,12.3vw,68px);letter-spacing:-.065em}.lead{font-size:15px;line-height:1.7;max-width:410px}.actions{gap:11px}.button{min-height:53px;padding:0 17px;gap:14px;font-size:10px}.hero__bottom-inner{padding:19px 22px}.facts{gap:24px}.fact{font-size:9px}.fact strong{font-size:10px}.scroll{display:none}}@media(max-width:390px){.hero__inner{padding-top:90px}h1{font-size:48px}.button{width:100%;justify-content:space-between}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important}.hero__video{display:none}}
+
+/* Centered headline treatment and sequential text entrance. */
+.hero__inner{display:flex;flex-direction:column;align-items:center;text-align:center}
+.hero__inner h1{max-width:1140px}
+.hero__inner .lead{max-width:670px;margin-left:auto;margin-right:auto}
+.hero__inner .actions{justify-content:center}
+.hero__inner .kicker{justify-content:center}
+.hero__inner .eyebrow{display:none}
+.hero__inner h1 .word{display:inline-block;color:var(--cream);opacity:0;filter:blur(8px);transform:translateY(38px);animation:word-appear .9s cubic-bezier(.2,.8,.2,1) forwards;animation-delay:var(--delay)}
+.hero__inner h1 .word--accent{color:var(--ember)}
+@keyframes word-appear{to{opacity:1;filter:blur(0);transform:translateY(0)}}
+@media(max-width:600px){.hero__inner{padding-top:98px}.hero__inner h1{font-size:clamp(43px,11vw,61px)}.hero__inner .lead{max-width:470px}.hero__inner .actions{width:100%;justify-content:center}}
+@media(prefers-reduced-motion:reduce){.hero__inner h1 .word{opacity:1;filter:none;transform:none}}
+
+/* Pointer-following button glow and subtle moving ring. */
+.button,.nav__cta{position:relative;overflow:hidden;isolation:isolate}
+.button > *, .nav__cta > *{position:relative;z-index:2}
+@media(hover:hover) and (pointer:fine){
+  .button::before,.nav__cta::before{content:"";position:absolute;z-index:0;inset:0;pointer-events:none;opacity:0;background:radial-gradient(110px circle at var(--pointer-x,50%) var(--pointer-y,50%),rgba(255,255,255,.28),transparent 70%);transition:opacity .25s ease}
+  .button::after,.nav__cta::after{content:"";position:absolute;z-index:1;left:var(--pointer-x,50%);top:var(--pointer-y,50%);width:30px;height:30px;border:1px solid rgba(255,255,255,.68);border-radius:50%;pointer-events:none;opacity:0;transform:translate(-50%,-50%) scale(.35);transition:opacity .2s ease,transform .3s cubic-bezier(.18,.8,.2,1)}
+  .button:hover::before,.nav__cta:hover::before,.button:hover::after,.nav__cta:hover::after{opacity:1}
+  .button:hover::after,.nav__cta:hover::after{transform:translate(-50%,-50%) scale(1)}
+  .button--ghost::before{background:radial-gradient(110px circle at var(--pointer-x,50%) var(--pointer-y,50%),rgba(232,75,48,.34),transparent 70%)}
+  .button--ghost::after{border-color:rgba(255,120,85,.8)}
+  .button svg,.nav__cta .arrow{transition:transform .3s cubic-bezier(.18,.8,.2,1)}
+  .button:hover svg{transform:translateX(5px)}
+  .nav__cta:hover .arrow{transform:translate(2px,-2px)}
+}
+@media(prefers-reduced-motion:reduce){.button,.button svg,.nav__cta .arrow{transition:none!important}.button::after,.nav__cta::after{display:none!important}}
+
+/* Expanded landing page */
+body{overflow-x:hidden}
+.rotating-phrase{min-width:13ch;text-align:center;white-space:nowrap;will-change:transform,opacity,filter}
+.rotating-phrase.is-exiting{animation:phrase-exit .35s ease forwards!important}
+.rotating-phrase.is-entering{animation:phrase-enter .55s cubic-bezier(.16,.8,.24,1) forwards!important}
+@keyframes phrase-exit{to{opacity:0;filter:blur(9px);transform:translateY(-18px)}}
+@keyframes phrase-enter{from{opacity:0;filter:blur(10px);transform:translateY(20px)}to{opacity:1;filter:blur(0);transform:translateY(0)}}
+.section-shell{width:min(100% - 10vw,1284px);margin-inline:auto}
+.section-label{display:inline-flex;align-items:center;gap:13px;font:700 11px Manrope,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--ember)}
+.section-label::before{content:"";width:27px;height:1px;background:currentColor}
+.section-head{display:flex;justify-content:space-between;align-items:end;gap:34px;margin:23px 0 55px}
+.section-head h2,.approach h2,.contact-panel h2{margin:0;font:700 clamp(40px,4.7vw,68px)/1.12 Manrope,sans-serif;letter-spacing:-.055em}
+.section-head p{max-width:360px;margin:0;color:#626e70;font-size:15px;line-height:1.8}
+.reveal{opacity:0;transform:translateY(35px);transition:opacity .8s ease,transform .8s cubic-bezier(.18,.8,.2,1)}.reveal.in-view{opacity:1;transform:translateY(0)}
+.services{padding:clamp(90px,10vw,145px) 0 125px;background:#f4f2ed;color:#172126;position:relative}
+.services::before{content:"";position:absolute;top:0;left:5vw;right:5vw;height:1px;background:#d6d7d1}
+.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.service-card{position:relative;min-height:410px;display:flex;flex-direction:column;overflow:hidden;padding:35px 30px 28px;background:#e9e8e2;border:1px solid #daddd6;transition:transform .35s ease,background .35s ease,border-color .35s ease;isolation:isolate}
+.service-card::before{content:"";position:absolute;inset:0;background:radial-gradient(400px circle at var(--card-x,50%) var(--card-y,50%),rgba(232,75,48,.13),transparent 65%);opacity:0;transition:opacity .3s;z-index:-1}
+.service-card:hover{background:#f7f5ef;border-color:#e0aa9b;transform:translateY(-8px)}.service-card:hover::before{opacity:1}
+.service-card__top{display:flex;align-items:start;justify-content:space-between;gap:20px}.service-card__index{font:600 11px Manrope,sans-serif;letter-spacing:.15em;color:#6b7778}
+.service-card__icon{width:64px;height:64px;display:grid;place-items:center;border:1px solid #bec8c5;color:var(--ember)}.service-card__icon svg{width:32px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.service-card__body{margin-top:auto}.service-card h3{margin:0 0 18px;font:700 clamp(24px,2.3vw,31px)/1.2 Manrope,sans-serif;letter-spacing:-.04em}.service-card p{margin:0;max-width:305px;color:#5d6a6d;font-size:14px;line-height:1.75}
+.service-card__line{height:2px;background:#cdd1cb;margin-top:33px;position:relative;overflow:hidden}.service-card__line::after{content:"";position:absolute;inset:0;background:var(--ember);transform:translateX(-101%);transition:transform .5s ease}.service-card:hover .service-card__line::after{transform:translateX(0)}
+.applications{background:#131c21;padding:clamp(92px,10vw,150px) 0;color:#f2f2ec;overflow:hidden}.applications .section-head p{color:#adb9ba}
+.application-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:16px}.application{min-height:340px;position:relative;overflow:hidden;background:#202b30;border:1px solid #334047;padding:35px;display:flex;align-items:end;isolation:isolate;transition:border-color .3s}
+.application:hover{border-color:#eb7476}.application::before{content:"";position:absolute;inset:-20%;z-index:-2;background:radial-gradient(circle at 75% 30%,rgba(232,75,48,.19),transparent 32%),repeating-linear-gradient(0deg,transparent 0 42px,rgba(255,255,255,.05) 43px,transparent 44px),repeating-linear-gradient(90deg,transparent 0 90px,rgba(255,255,255,.05) 91px,transparent 92px);transition:transform .8s}.application:hover::before{transform:scale(1.1) rotate(2deg)}
+.application::after{content:"";position:absolute;right:10%;top:13%;width:35%;height:65%;border:1px solid rgba(232,75,48,.5);box-shadow:16px 16px 0 -1px #202b30,16px 16px 0 rgba(232,75,48,.3);transform:skewY(-12deg);transition:transform .6s}.application:hover::after{transform:skewY(-12deg) translate(-7px,-7px)}
+.application:nth-child(2)::after{width:45%;height:32%;top:26%;transform:skewX(-22deg)}.application:nth-child(2):hover::after{transform:skewX(-22deg) translate(-7px,-7px)}
+.application__copy{z-index:2}.application__num{color:#ef8067;font-size:11px;letter-spacing:.2em;font-weight:700}.application h3{font:700 clamp(25px,2.5vw,36px)/1.15 Manrope,sans-serif;letter-spacing:-.04em;margin:10px 0}.application p{max-width:340px;color:#aebabc;line-height:1.65;font-size:14px;margin:0}
+.approach{background:#f4f2ed;color:#162126;padding:clamp(95px,10vw,155px) 0}.approach__layout{display:grid;grid-template-columns:.92fr 1.08fr;gap:clamp(50px,8vw,130px);align-items:center}.approach h2{margin:25px 0 22px}.approach__intro{max-width:460px;color:#637174;line-height:1.8;margin:0 0 38px}.approach__art{aspect-ratio:1.16;position:relative;overflow:hidden;background:#172126;display:grid;place-items:center}.approach__art::before{content:"";position:absolute;width:65%;height:65%;border:1px solid rgba(255,255,255,.15);transform:rotate(22deg);box-shadow:0 0 0 65px rgba(255,255,255,.025),0 0 0 130px rgba(255,255,255,.025);animation:art-breathe 9s ease-in-out infinite alternate}.approach__art::after{content:"";position:absolute;inset:0;background:linear-gradient(130deg,transparent 35%,rgba(232,75,48,.14) 50%,transparent 65%);background-size:250% 100%;animation:art-scan 9s linear infinite}.approach__art strong{font:800 clamp(60px,9vw,135px)/1 Manrope,sans-serif;letter-spacing:-.1em;color:#df3539;z-index:1;position:relative}.approach__art strong::after{content:"";position:absolute;right:-34px;top:5px;width:16px;height:16px;background:#df3539;border-radius:50%;box-shadow:0 0 35px 10px rgba(232,75,48,.35)}
+@keyframes art-breathe{to{transform:rotate(30deg) scale(1.18)}}@keyframes art-scan{to{background-position:-250% 0}}
+.steps{display:grid;gap:0;border-top:1px solid #cbd2cf}.step{width:100%;text-align:left;display:grid;grid-template-columns:48px 1fr 28px;gap:20px;align-items:start;padding:21px 4px;border:0;border-bottom:1px solid #cbd2cf;color:#798486;background:transparent;cursor:pointer;transition:color .2s}.step:hover,.step.is-active{color:#182126}.step__num{font-size:12px;font-weight:700;color:var(--ember);padding-top:5px}.step strong{display:block;font:700 19px Manrope,sans-serif;letter-spacing:-.03em}.step small{display:block;max-height:0;overflow:hidden;opacity:0;color:#617073;font-size:13px;line-height:1.7;font-weight:400;transition:max-height .35s ease,opacity .35s ease,margin .35s ease}.step.is-active small{max-height:100px;opacity:1;margin-top:9px}.step__plus{font-size:23px;font-weight:400;line-height:1}.step.is-active .step__plus{color:var(--ember);transform:rotate(45deg)}
+.contact-panel{position:relative;isolation:isolate;overflow:hidden;padding:clamp(92px,10vw,145px) 0;background:#d6262c;color:#fff}.contact-panel::before{content:"";position:absolute;inset:-30%;background:repeating-radial-gradient(circle at 80% 60%,transparent 0 56px,rgba(255,255,255,.1) 57px,transparent 58px);animation:contact-drift 18s ease-in-out infinite alternate;z-index:-1}@keyframes contact-drift{to{transform:translate(-5%,5%) scale(1.05)}}.contact-panel__inner{display:flex;justify-content:space-between;align-items:end;gap:40px}.contact-panel h2{margin:16px 0 0;max-width:790px}.contact-panel .section-label{color:#fff}.contact-panel .button{background:#10191d;color:#fff;white-space:nowrap}.contact-panel .button:hover{background:#25343a}.contact-panel__note{font-size:12px;opacity:.78;margin:20px 0 0}
+.footer{padding:34px 0;background:#111a1e;color:#849294;font-size:12px}.footer .section-shell{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer a{color:#e4e7e2}
+.footer__credit{display:inline-flex;align-items:center;gap:7px;color:#849294}.footer__credit a{color:#f0a08d;font-weight:700;letter-spacing:.04em}.footer__credit a:hover{color:#fff}
+@media(max-width:950px){.service-grid{grid-template-columns:repeat(2,1fr)}.service-card:last-child{grid-column:1/-1;min-height:300px}.approach__layout{grid-template-columns:1fr}.approach__art{max-height:450px}.contact-panel__inner{align-items:start;flex-direction:column}}
+@media(max-width:650px){.section-shell{width:calc(100% - 44px)}.section-head{display:block;margin-bottom:35px}.section-head p{margin-top:22px}.service-grid,.application-grid{grid-template-columns:1fr}.service-card,.service-card:last-child{min-height:325px;grid-column:auto}.application{min-height:290px}.rotating-phrase{min-width:0;display:block!important;text-align:center;white-space:normal}.hero__inner h1{line-height:1.04}.services,.applications,.approach{padding-block:85px}.approach__layout{gap:42px}.contact-panel__inner .button{width:100%;justify-content:space-between}.footer .section-shell{align-items:start;flex-direction:column}}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}.rotating-phrase.is-exiting,.rotating-phrase.is-entering{animation:none!important;opacity:1;filter:none;transform:none}.approach__art::before,.approach__art::after,.contact-panel::before{animation:none!important}}
+
+/* Interactive educational section */
+.detail-section{background:#172228;color:#f3f3ed;padding:clamp(95px,10vw,155px) 0;overflow:hidden}
+.detail-section__grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(45px,6vw,95px);align-items:center}
+.detail-section h2{font:700 clamp(42px,4.65vw,68px)/1.12 Manrope,sans-serif;letter-spacing:-.057em;margin:24px 0 22px}
+.detail-section__intro{max-width:470px;color:#afbdbe;font-size:15px;line-height:1.8;margin:0 0 32px}
+.detail-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:35px}
+.detail-tab{padding:13px 19px;border:1px solid #526167;color:#c0cccb;background:transparent;font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.detail-tab:hover{border-color:#e65456;color:#fff}.detail-tab[aria-pressed=true]{background:#d6262c;border-color:#d6262c;color:white}
+.detail-message{min-height:122px;padding-left:20px;border-left:2px solid #d6262c}.detail-message__eyebrow{color:#f48166;font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase}.detail-message h3{font:700 21px Manrope,sans-serif;letter-spacing:-.03em;margin:9px 0}.detail-message p{color:#afbdbe;line-height:1.7;font-size:14px;max-width:460px;margin:0}
+.detail-diagram{position:relative;aspect-ratio:1.08;min-height:390px;overflow:hidden;background:linear-gradient(145deg,#233139,#19252b);border:1px solid #415058;isolation:isolate}
+.detail-diagram::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:38px 38px}
+.detail-diagram__label{position:absolute;top:24px;left:25px;font-size:10px;font-weight:700;letter-spacing:.18em;color:#b6c4c5;z-index:6}.detail-diagram__tag{position:absolute;bottom:24px;left:25px;font-size:10px;letter-spacing:.13em;color:#a8b5b6;z-index:6}
+.detail-wall{position:absolute;left:41%;top:17%;width:18%;height:66%;background:repeating-linear-gradient(90deg,#859093 0 10px,#697477 11px 12px);border:2px solid #b3c0c0;box-shadow:12px 12px 0 rgba(0,0,0,.17);z-index:2}
+.detail-wall::before,.detail-wall::after{content:"";position:absolute;left:-55%;width:210%;height:2px;background:rgba(255,255,255,.32)}.detail-wall::before{top:31%}.detail-wall::after{bottom:31%}
+.detail-pipe{position:absolute;top:45%;left:9%;width:82%;height:12%;background:linear-gradient(#677779,#aab9ba 28%,#77898b 76%,#495d60);border:2px solid #b2bec0;box-shadow:0 12px 24px rgba(0,0,0,.23);z-index:3}
+.detail-pipe::before,.detail-pipe::after{content:"";position:absolute;top:0;height:100%;width:2px;background:rgba(0,0,0,.25)}.detail-pipe::before{left:39%}.detail-pipe::after{right:39%}
+.detail-gap{position:absolute;left:38%;top:40%;width:24%;height:22%;border:12px solid rgba(245,92,57,.55);border-radius:50%;filter:drop-shadow(0 0 15px rgba(245,92,57,.5));z-index:4;transform:scale(1.1);transition:border-color .45s,filter .45s,transform .45s}
+.detail-diagram.is-sealed .detail-gap{border-color:#d6262c;filter:drop-shadow(0 0 6px rgba(245,92,57,.2));transform:scale(.95)}
+.detail-pulse{position:absolute;left:24%;top:51%;height:8px;width:8px;border-radius:50%;background:#f56e50;box-shadow:0 0 25px 10px rgba(232,75,48,.22);z-index:5;animation:pulse-to-gap 3s linear infinite}.detail-pulse + .detail-pulse{animation-delay:-1.4s;top:49%}
+@keyframes pulse-to-gap{0%{left:24%;opacity:0;transform:scale(.6)}15%{opacity:1}76%{opacity:1}100%{left:38%;opacity:0;transform:scale(1.6)}}
+.detail-diagram.is-sealed .detail-pulse{opacity:0;animation:none}
+.detail-diagram__status{position:absolute;right:25px;bottom:24px;padding:9px 12px;border:1px solid rgba(239,111,82,.55);background:rgba(25,36,42,.84);color:#ff9a7e;font:700 10px Manrope,sans-serif;letter-spacing:.1em;text-transform:uppercase;z-index:6}
+.detail-diagram.is-sealed .detail-diagram__status{color:#fff;background:#da5138;border-color:#da5138}
+.detail-section__foot{font-size:11px;color:#87999b;margin-top:15px;line-height:1.6}
+@media(max-width:950px){.detail-section__grid{grid-template-columns:1fr}.detail-diagram{max-width:680px;width:100%;margin:auto}}
+@media(max-width:600px){.detail-section{padding-block:85px}.detail-diagram{min-height:320px}.detail-message{min-height:156px}.detail-gap{border-width:8px}.detail-diagram__tag{max-width:180px}}
+@media(prefers-reduced-motion:reduce){.detail-pulse{animation:none}}
+
+/* Editorial construction photo section */
+.photo-story{padding:clamp(95px,10vw,150px) 0 0;background:#efece4;color:#182329;overflow:hidden}
+.photo-story__top{display:flex;justify-content:space-between;align-items:end;gap:35px;margin-bottom:64px}
+.photo-story h2{font:700 clamp(44px,5.4vw,76px)/1.08 Manrope,sans-serif;letter-spacing:-.063em;max-width:850px;margin:22px 0 0}
+.photo-story h2 em{font-style:normal;color:#d6262c}
+.photo-story__side{max-width:230px;color:#667174;font-size:14px;line-height:1.7;padding-bottom:8px}
+.photo-collage{display:grid;grid-template-columns:1.08fr .9fr .72fr;align-items:end;gap:clamp(12px,2vw,26px);padding-bottom:78px}
+.photo-card{position:relative;min-width:0;overflow:hidden;background:#c8d0cc;isolation:isolate;box-shadow:0 18px 35px rgba(20,33,37,.14);transition:transform .45s cubic-bezier(.2,.8,.2,1),box-shadow .45s}
+.photo-card:hover{transform:translateY(-15px) rotate(0deg)!important;box-shadow:0 25px 48px rgba(20,33,37,.2)}
+.photo-card:nth-child(1){aspect-ratio:.79;transform:rotate(-3deg)}.photo-card:nth-child(2){aspect-ratio:.82;transform:translateY(-45px) rotate(2.5deg)}.photo-card:nth-child(3){aspect-ratio:.71;transform:rotate(-2deg)}
+.photo-card img{width:100%;height:100%;display:block;object-fit:cover;object-position:center;filter:saturate(.72) contrast(1.06);transform:scale(1.08) translate(var(--photo-x,0px),var(--photo-y,0px));transition:transform .6s cubic-bezier(.2,.8,.2,1),filter .5s}
+.photo-card:hover img{filter:saturate(1.02) contrast(1.02);transform:scale(1.14) translate(var(--photo-x,0px),var(--photo-y,0px))}
+.photo-card::after{content:"";position:absolute;inset:36% 0 0;background:linear-gradient(transparent,rgba(7,16,20,.82));pointer-events:none}
+.photo-card__caption{position:absolute;bottom:0;left:0;right:0;z-index:2;color:white;padding:clamp(18px,2.5vw,31px)}
+.photo-card__number{font-size:10px;font-weight:700;letter-spacing:.18em;color:#f7a18e}.photo-card h3{font:700 clamp(20px,2.35vw,30px)/1.2 Manrope,sans-serif;letter-spacing:-.035em;margin:9px 0 3px}.photo-card p{font-size:12px;color:#d5dfdc;margin:0}
+.photo-story__stamp{position:absolute;z-index:3;top:19px;right:19px;width:60px;height:60px;border-radius:50%;background:#d6262c;color:white;display:grid;place-items:center;text-align:center;font:800 10px/1.3 Manrope,sans-serif;letter-spacing:.07em;transform:rotate(13deg);box-shadow:0 7px 18px rgba(0,0,0,.17)}
+.photo-band{background:#d6262c;color:#fff;overflow:hidden;padding:19px 0;transform:rotate(-1.1deg) scale(1.03);transform-origin:center}
+.photo-band__track{display:flex;gap:58px;white-space:nowrap;width:max-content;animation:photo-march 27s linear infinite}
+.photo-band__track span{font:800 clamp(15px,2.2vw,25px) Manrope,sans-serif;letter-spacing:.07em;text-transform:uppercase}.photo-band__track b{font-weight:400;opacity:.65;margin-left:58px}
+@keyframes photo-march{to{transform:translateX(-50%)}}
+.photo-story__credit{padding:25px 0 35px;color:#778083;font-size:11px;line-height:1.6}
+@media(max-width:900px){.photo-story__top{display:block}.photo-story__side{max-width:520px;margin-top:20px}.photo-collage{grid-template-columns:1fr 1fr}.photo-card:nth-child(3){grid-column:1/-1;aspect-ratio:2.1;max-height:420px}.photo-card:nth-child(2){transform:rotate(2.5deg)}}
+@media(max-width:600px){.photo-story{padding-top:88px}.photo-story__top{margin-bottom:48px}.photo-collage{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:18px 22px 54px;margin-inline:-22px}.photo-collage::-webkit-scrollbar{display:none}.photo-card,.photo-card:nth-child(1),.photo-card:nth-child(2),.photo-card:nth-child(3){flex:0 0 76vw;min-height:420px;aspect-ratio:.79;max-height:none;transform:none;scroll-snap-align:center}.photo-card:hover{transform:translateY(-5px)!important}.photo-story__credit{padding-top:32px}.photo-band{padding:14px 0}}
+@media(prefers-reduced-motion:reduce){.photo-band__track{animation:none}.photo-card,.photo-card img{transition:none}}
+
+/* Keep each animated headline row centered without reserving invisible word space. */
+.hero__inner h1{width:100%;max-width:1140px;text-align:center}
+.hero-line{display:flex;align-items:baseline;justify-content:center;gap:.22em;white-space:nowrap;width:100%}
+.hero-line--bottom{margin-top:.04em}
+.hero__inner .rotating-phrase{display:inline-block!important;min-width:0!important;width:auto!important;text-align:left!important;white-space:nowrap!important;flex:0 0 auto}
+@media(max-width:600px){.hero-line{gap:.16em}.hero-line--bottom{flex-direction:column;align-items:center;gap:0;margin-top:.11em}.hero__inner h1{font-size:clamp(43px,10.5vw,61px)}}
+
+/* Short architectural opening sequence */
+.site-loader{position:fixed;inset:0;z-index:1000;display:grid;place-items:center;background:#111b20;color:#f3f2ed;pointer-events:none;transition:opacity .65s ease,visibility .65s ease;animation:loader-backstop .5s ease 3s forwards}
+.site-loader.is-done{opacity:0;visibility:hidden}
+@keyframes loader-backstop{to{opacity:0;visibility:hidden}}
+.site-loader__inner{width:min(420px,calc(100% - 48px))}.site-loader__visual{position:relative;height:130px;display:flex;align-items:center;justify-content:center;gap:24px}.site-loader__wall{width:70px;height:86px;border:1px solid #728184;background:repeating-linear-gradient(0deg,#253338 0 13px,#324249 14px 15px);animation:loader-wall .9s cubic-bezier(.2,.8,.2,1) both}.site-loader__wall--left{transform-origin:right}.site-loader__wall--right{transform-origin:left;animation-delay:.18s}@keyframes loader-wall{from{opacity:0;transform:scaleX(.2)}to{opacity:1;transform:scaleX(1)}}
+.site-loader__bridge{position:absolute;width:100px;height:13px;background:#a0afb0;border:1px solid #d0d7d5;left:50%;top:59px;transform:translateX(-50%);z-index:2}.site-loader__seal{position:absolute;top:44px;left:50%;width:43px;height:43px;border:8px solid #d6262c;border-radius:50%;transform:translateX(-50%) scale(.2);opacity:0;z-index:3;animation:loader-seal .65s cubic-bezier(.15,.85,.2,1.2) .45s forwards}@keyframes loader-seal{to{transform:translateX(-50%) scale(1);opacity:1}}
+.site-loader__meta{display:flex;justify-content:space-between;font:800 12px Manrope,sans-serif;letter-spacing:.18em}.site-loader__meta span:last-child{color:#e7696a}.site-loader__track{height:2px;background:#405056;margin-top:19px;overflow:hidden}.site-loader__track span{display:block;height:100%;background:#d6262c;transform:scaleX(0);transform-origin:left;animation:loader-progress 1.55s cubic-bezier(.18,.7,.2,1) forwards}@keyframes loader-progress{to{transform:scaleX(1)}}.site-loader p{font-size:10px;letter-spacing:.22em;color:#8ea0a2;margin:16px 0 0}
+/* Business planning module */
+.project-planner{background:#e7e5de;color:#182328;padding:clamp(85px,10vw,140px) 0}.project-planner__layout{display:grid;grid-template-columns:.91fr 1.09fr;gap:clamp(40px,8vw,120px);align-items:center}.project-planner h2{font:700 clamp(40px,4.8vw,67px)/1.13 Manrope,sans-serif;letter-spacing:-.055em;margin:24px 0 19px}.project-planner__intro{max-width:455px;color:#677475;line-height:1.8;font-size:15px;margin:0 0 30px}.planner-choices{border-top:1px solid #c4ccc7}.planner-choice{display:flex;align-items:center;width:100%;gap:21px;text-align:left;padding:20px 2px;background:none;border:0;border-bottom:1px solid #c4ccc7;color:#687677;cursor:pointer;font:700 18px Manrope,sans-serif;transition:color .25s,padding .25s}.planner-choice:hover,.planner-choice.is-active{color:#172126;padding-left:10px}.planner-choice span{font-size:11px;color:#d4492e;letter-spacing:.1em}.planner-choice b{font-weight:400;font-size:22px;margin-left:auto;transition:transform .25s}.planner-choice:hover b,.planner-choice.is-active b{transform:translate(4px,-4px);color:#d6262c}
+.planner-result{position:relative;min-height:540px;background:#172328;color:white;padding:clamp(30px,4vw,53px);display:flex;flex-direction:column;overflow:hidden}.planner-result::before{content:"";position:absolute;right:-140px;top:-170px;width:470px;height:470px;border:1px solid rgba(240,104,72,.35);border-radius:50%;box-shadow:0 0 0 55px rgba(240,104,72,.035),0 0 0 110px rgba(240,104,72,.03);pointer-events:none}.planner-result__top{display:flex;align-items:center;justify-content:space-between;color:#e0aaa0;font:700 11px Manrope,sans-serif;letter-spacing:.17em}.planner-result__signal{width:9px;height:9px;border-radius:50%;background:#e03a3e;box-shadow:0 0 0 7px rgba(232,75,48,.14);animation:signal-pulse 2.3s ease-in-out infinite}@keyframes signal-pulse{50%{box-shadow:0 0 0 15px rgba(232,75,48,0)}}.planner-result h3{font:700 clamp(30px,3.25vw,45px)/1.13 Manrope,sans-serif;letter-spacing:-.045em;max-width:490px;margin:56px 0 15px}.planner-result p{color:#b5c0c0;line-height:1.75;max-width:490px;font-size:14px;margin:0}.planner-result__divider{height:1px;background:#425056;margin:38px 0 25px}.planner-result__label{color:#ef8d76;font-size:10px;letter-spacing:.19em;font-weight:700}.planner-result ul{padding-left:19px;color:#d5ddda;line-height:1.9;font-size:13px;margin:13px 0 30px}.planner-result li::marker{color:#ed6548}.planner-result__link{margin-top:auto;display:flex;justify-content:space-between;align-items:center;max-width:250px;border-bottom:1px solid #e03a3e;padding-bottom:12px;text-transform:uppercase;font-size:11px;letter-spacing:.12em;font-weight:700}.planner-result__link span{font-size:21px;color:#e03a3e;transition:transform .25s}.planner-result__link:hover span{transform:translate(4px,-4px)}
+@media(max-width:850px){.project-planner__layout{grid-template-columns:1fr}.planner-result{min-height:490px}}
+@media(max-width:600px){.project-planner{padding-block:84px}.planner-result{padding:30px;min-height:510px}.planner-result h3{margin-top:42px}.planner-choice{font-size:16px}}
+@media(prefers-reduced-motion:reduce){.site-loader{display:none}.site-loader__wall,.site-loader__seal,.site-loader__track span,.planner-result__signal{animation:none}}
+
+/* Extinguisher identity: clean red, charcoal, and silver. */
+.hero{background:linear-gradient(90deg,rgba(8,13,17,.93),rgba(8,13,17,.2)),url('https://images.pexels.com/photos/4805958/pexels-photo-4805958.jpeg?auto=compress&cs=tinysrgb&w=1500') center 40%/cover}
+.hero__shade{background:linear-gradient(90deg,rgba(6,11,15,.96) 0%,rgba(7,11,15,.8) 42%,rgba(7,11,15,.42) 78%),linear-gradient(0deg,rgba(6,10,14,.92),transparent 52%)}
+.hero__video{object-position:center 45%}
+.brand__mark{clip-path:none;border-radius:50%;border-width:3px}.brand__mark:before{width:10px;height:20px;border:0;background:#fff;clip-path:polygon(20% 0,80% 0,100% 30%,78% 100%,18% 100%,0 30%);transform:none;margin:0}
+.site-loader__ext{position:relative;width:80px;height:120px;display:block}.site-loader__ext-body{position:absolute;left:24px;top:39px;width:46px;height:72px;background:#d6262c;border-radius:11px 11px 8px 8px;box-shadow:inset -9px 0 0 rgba(0,0,0,.13);animation:loader-ext 1s cubic-bezier(.18,.8,.2,1) both}.site-loader__ext-handle{position:absolute;left:31px;top:17px;width:48px;height:29px;border-top:6px solid #d8e1df;border-left:5px solid #d8e1df;transform:skew(-13deg);z-index:2}.site-loader__ext-handle:after{content:"";position:absolute;left:16px;top:12px;width:32px;height:4px;background:#d8e1df}.site-loader__ext-hose{position:absolute;left:72px;top:42px;width:18px;height:63px;border-right:5px solid #a3b2b3;border-bottom:5px solid #a3b2b3;border-radius:0 0 12px 0;z-index:2}@keyframes loader-ext{from{opacity:0;transform:translateY(25px) scale(.9)}to{opacity:1;transform:translateY(0) scale(1)}}
+.service-card__icon svg{display:none}.service-card__icon::before{content:"";width:20px;height:30px;border-radius:5px 5px 3px 3px;background:#d6262c;box-shadow:inset -5px 0 0 rgba(0,0,0,.15)}.service-card__icon::after{content:"";position:absolute;top:11px;width:24px;height:7px;border-top:3px solid #d6262c;border-left:3px solid #d6262c;transform:translateX(5px)}.service-card__icon{position:relative}
+.application::after{border-radius:12px 12px 25px 25px;transform:rotate(-8deg);width:26%;height:58%;right:16%;top:19%;background:linear-gradient(90deg,rgba(214,38,44,.68),rgba(214,38,44,.22));box-shadow:inset -13px 0 0 rgba(0,0,0,.12),16px 16px 0 rgba(214,38,44,.11)}.application:hover::after{transform:rotate(-4deg) translate(-7px,-7px)}.application:nth-child(2)::after{width:26%;height:58%;top:19%;transform:rotate(7deg)}.application:nth-child(2):hover::after{transform:rotate(3deg) translate(-7px,-7px)}
+.detail-diagram{background:radial-gradient(circle at 50% 55%,#36454d,#172328 68%)}.ext-figure{position:absolute;left:50%;top:48%;width:195px;height:335px;transform:translate(-50%,-50%) scale(.92);z-index:3;transition:filter .45s,transform .45s}.ext-body{position:absolute;left:40px;top:100px;width:110px;height:210px;border-radius:25px 25px 14px 14px;background:linear-gradient(90deg,#a9151d,#ed3940 30%,#dc242b 68%,#941218);box-shadow:18px 22px 32px rgba(0,0,0,.3);display:grid;place-items:center;color:#fff;text-align:center;font:800 13px/1.3 Manrope,sans-serif;letter-spacing:.08em}.ext-body:after{content:"";position:absolute;top:115px;width:74px;height:37px;background:#f0ece4;border-radius:3px;opacity:.92}.ext-body span{position:relative;z-index:2;margin-top:-70px}.ext-handle{position:absolute;left:63px;top:48px;width:86px;height:56px;border-top:12px solid #bdc9ca;border-left:9px solid #bdc9ca;transform:skew(-15deg);z-index:4}.ext-handle:after{content:"";position:absolute;left:24px;top:22px;width:60px;height:8px;background:#bdc9ca}.ext-pin{position:absolute;left:136px;top:67px;width:16px;height:16px;border:3px solid #d7dedc;border-radius:50%;z-index:4}.ext-gauge{position:absolute;left:88px;top:85px;width:34px;height:34px;border:5px solid #d2dcdb;background:#e8ece8;border-radius:50%;z-index:5;box-shadow:0 0 0 3px #637477}.ext-gauge:after{content:"";position:absolute;left:12px;top:5px;width:3px;height:11px;background:#d6262c;transform:rotate(32deg);transform-origin:bottom}.ext-hose{position:absolute;left:151px;top:100px;width:32px;height:151px;border-right:10px solid #222a2e;border-bottom:10px solid #222a2e;border-radius:0 0 20px 0;z-index:2}.detail-diagram:not(.is-sealed) .ext-figure{filter:grayscale(.7) brightness(.72);transform:translate(-50%,-50%) scale(.9) rotate(-5deg)}.detail-diagram:not(.is-sealed) .detail-diagram__status{background:#a3292b;color:white}
+@media(max-width:600px){.ext-figure{transform:translate(-50%,-50%) scale(.74)}.detail-diagram:not(.is-sealed) .ext-figure{transform:translate(-50%,-50%) scale(.72) rotate(-5deg)}}
+@media(prefers-reduced-motion:reduce){.site-loader__ext-body{animation:none}}
+</style></head><body>
+<div class="site-loader" id="site-loader" aria-hidden="true"><div class="site-loader__inner"><div class="site-loader__visual"><span class="site-loader__ext"><i class="site-loader__ext-handle"></i><i class="site-loader__ext-body"></i><i class="site-loader__ext-hose"></i></span></div><div class="site-loader__meta"><span>NYC / FIRE SAFETY</span><span id="loader-percent">00%</span></div><div class="site-loader__track"><span></span></div><p>READY WHEN IT MATTERS</p></div></div>
+
+<section class="hero" aria-labelledby="hero-title"><video class="hero__video" autoplay muted loop playsinline preload="metadata" poster="https://images.pexels.com/photos/4805958/pexels-photo-4805958.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500" aria-hidden="true"><source src="https://videos.pexels.com/video-files/34775765/14743018_1920_1080_30fps.mp4" type="video/mp4"></video><div class="hero__shade"></div><div class="hero__grid"></div><div class="glow"></div>
+<header class="nav"><a class="brand" href="/" aria-label="NYC Fire Safety home"><span class="brand__mark" aria-hidden="true"></span><span class="brand__text">NYC <span>FIRE SAFETY</span><small>EXTINGUISHER SERVICES</small></span></a><nav class="nav__links" aria-label="Main navigation"><a href="#services">Services</a><a href="#projects">Applications</a><a href="#about">Our Approach</a><a href="#contact">Contact</a></nav><a class="nav__cta" href="#contact">Request a quote <span class="arrow" aria-hidden="true">↗</span></a></header>
+<div class="hero__inner"><div class="kicker">NEW YORK CITY • FIRE EXTINGUISHERS</div><h1 id="hero-title"><span class="hero-line hero-line--top"><span class="word" style="--delay:.08s">Ready</span><span class="word" style="--delay:.19s">for</span></span><span class="hero-line hero-line--bottom"><span class="word" style="--delay:.30s">what</span><span class="word word--accent rotating-phrase" id="hero-phrase" style="--delay:.41s">comes next.</span></span></h1><p class="lead rise">Fire extinguisher solutions for the places you manage. Put the right equipment, visibility, and upkeep on your project checklist.</p><div class="actions rise"><a class="button button--main" href="#contact">Discuss your project <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a><a class="button button--ghost" href="#services">Explore services <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></a></div><div class="eyebrow">BUILT FOR WHAT MATTERS MOST — 01 / 03</div></div>
+<div class="hero__bottom"><div class="hero__bottom-inner"><div class="facts"><div class="fact">Focus<strong>Fire extinguishers</strong></div><div class="fact">Service area<strong>New York City</strong></div></div><a class="scroll" href="#services">Scroll to explore <span>↓</span></a></div></div></section>
+
+<main>
+  <section class="services" id="services" aria-labelledby="services-title"><div class="section-shell"><div class="section-label reveal">01 / Extinguisher services</div><div class="section-head reveal"><h2 id="services-title">Fire readiness for<br>every kind of space.</h2><p>From a single location to a growing property portfolio, keep extinguisher needs visible and manageable.</p></div><div class="service-grid">
+    <article class="service-card reveal"><div class="service-card__top"><span class="service-card__index">01 — EQUIPMENT</span><span class="service-card__icon" aria-hidden="true"><svg viewBox="0 0 40 40"><rect x="5" y="5" width="30" height="30"/><circle cx="20" cy="20" r="8"/><path d="M5 20h7m16 0h7"/></svg></span></div><div class="service-card__body"><h3>Extinguisher supply</h3><p>Plan the quantity, placement, and equipment types around the needs of each property.</p><div class="service-card__line"></div></div></article>
+    <article class="service-card reveal"><div class="service-card__top"><span class="service-card__index">02 — UPKEEP</span><span class="service-card__icon" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M7 6v28m26-28v28M17 6v28m6-28v28M17 10l6 4m-6 6 6 4m-6 6 6 4"/></svg></span></div><div class="service-card__body"><h3>Inspection &amp; upkeep</h3><p>Make routine extinguisher checks part of the way you care for occupied spaces.</p><div class="service-card__line"></div></div></article>
+    <article class="service-card reveal"><div class="service-card__top"><span class="service-card__index">03 — CONTINUITY</span><span class="service-card__icon" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M6 7h28v8H6zm0 19h28v8H6zM11 15v11m18-11v11M11 20h18"/></svg></span></div><div class="service-card__body"><h3>Recharge &amp; replacement</h3><p>Identify equipment that needs attention, recharge, or a replacement plan.</p><div class="service-card__line"></div></div></article>
+  </div></div></section>
+  
+<section class="project-planner" id="project-planner" aria-labelledby="planner-title"><div class="section-shell project-planner__layout"><div class="reveal"><div class="section-label">For businesses / Practical planning</div><h2 id="planner-title">What kind of space<br>do you manage?</h2><p class="project-planner__intro">Select a setting to explore the extinguisher questions that matter to that environment.</p><div class="planner-choices" role="group" aria-label="Project stage"><button type="button" class="planner-choice is-active" aria-pressed="true" data-stage="new"><span>01</span> Commercial property <b aria-hidden="true">↗</b></button><button type="button" class="planner-choice" aria-pressed="false" data-stage="renovation"><span>02</span> Active worksite <b aria-hidden="true">↗</b></button><button type="button" class="planner-choice" aria-pressed="false" data-stage="facility"><span>03</span> Multiple locations <b aria-hidden="true">↗</b></button></div></div><div class="planner-result reveal" aria-live="polite"><div class="planner-result__top"><span>PROJECT BRIEF / <span id="planner-number">01</span></span><span class="planner-result__signal" aria-hidden="true"></span></div><h3 id="planner-result-title">Plan for the whole property.</h3><p id="planner-result-copy">Map the spaces, occupants, and existing equipment before discussing an extinguisher plan.</p><div class="planner-result__divider"></div><span class="planner-result__label">DISCUSSION STARTERS</span><ul id="planner-result-list"><li>Space and occupancy needs</li><li>Equipment locations</li><li>Ongoing service planning</li></ul><a href="#contact" class="planner-result__link">Discuss your project <span aria-hidden="true">↗</span></a></div></div></section>
+<section class="applications" id="projects" aria-labelledby="applications-title"><div class="section-shell"><div class="section-label reveal">02 / Where readiness matters</div><div class="section-head reveal"><h2 id="applications-title">A safer space starts<br>with being ready.</h2><p>Equipment should suit the setting and be easy for teams to locate when time matters.</p></div><div class="application-grid"><article class="application reveal"><div class="application__copy"><div class="application__num">A / WORKPLACES</div><h3>Commercial spaces</h3><p>Offices, shops, shared areas, and the people who use them.</p></div></article><article class="application reveal"><div class="application__copy"><div class="application__num">B / OPERATIONS</div><h3>Operational sites</h3><p>Facilities and worksites with changing equipment and layouts.</p></div></article></div></div></section>
+  <section class="approach" id="about" aria-labelledby="approach-title"><div class="section-shell approach__layout"><div class="reveal"><div class="section-label">03 / A clear approach</div><h2 id="approach-title">Readiness is<br>an ongoing job.</h2><p class="approach__intro">Start with the space, understand the equipment already there, and plan for what comes next.</p><div class="steps" role="group" aria-label="Extinguisher planning considerations"><button class="step is-active" type="button" aria-pressed="true" data-art="01"><span class="step__num">01</span><span><strong>Understand the space</strong><small>Consider the property, use, and existing extinguisher locations.</small></span><span class="step__plus" aria-hidden="true">+</span></button><button class="step" type="button" aria-pressed="false" data-art="02"><span class="step__num">02</span><span><strong>Match the equipment</strong><small>Review the equipment type and placement needs for each area.</small></span><span class="step__plus" aria-hidden="true">+</span></button><button class="step" type="button" aria-pressed="false" data-art="03"><span class="step__num">03</span><span><strong>Keep it visible</strong><small>Plan for access, routine checks, and future changes to the site.</small></span><span class="step__plus" aria-hidden="true">+</span></button></div></div><div class="approach__art reveal" aria-hidden="true"><strong id="art-number">01</strong></div></div></section>
+  
+<section class="detail-section" id="details" aria-labelledby="detail-title"><div class="section-shell detail-section__grid"><div class="reveal"><div class="section-label">04 / The equipment check</div><h2 id="detail-title">Ready to see.<br>Ready to use.</h2><p class="detail-section__intro">A fire extinguisher needs to be visible, accessible, and part of an ongoing equipment plan. Explore the difference between a question mark and a clear next step.</p><div class="detail-tabs" role="group" aria-label="Equipment illustration view"><button class="detail-tab" type="button" aria-pressed="false" data-view="open">Needs attention</button><button class="detail-tab" type="button" aria-pressed="true" data-view="sealed">Ready on site</button></div><div class="detail-message" aria-live="polite"><span class="detail-message__eyebrow" id="detail-eyebrow">The equipment plan</span><h3 id="detail-heading">Keep it visible</h3><p id="detail-description">Look at placement, access, and condition so the equipment stays on the team's radar.</p></div></div><div class="reveal"><div class="detail-diagram is-sealed" id="detail-diagram" aria-hidden="true"><span class="detail-diagram__label">FIRE EQUIPMENT / VISUAL STUDY</span><div class="ext-figure"><span class="ext-handle"></span><span class="ext-pin"></span><span class="ext-gauge"></span><span class="ext-hose"></span><span class="ext-body"><span>FIRE<br>EXTINGUISHER</span></span></div><span class="detail-diagram__tag">THE EQUIPMENT THAT STANDS READY</span><span class="detail-diagram__status" id="detail-status">Visible and accessible</span></div><p class="detail-section__foot">Illustrative concept only. Equipment needs depend on the setting and applicable requirements.</p></div></div></section>
+
+<section class="photo-story" id="perspective" aria-labelledby="photo-story-title"><div class="section-shell"><div class="photo-story__top reveal"><div><div class="section-label">05 / A closer look</div><h2 id="photo-story-title">For every space.<br><em>Ready for the moment.</em></h2></div><p class="photo-story__side">See how visible equipment, clear placement, and everyday readiness fit together.</p></div><div class="photo-collage">
+  <article class="photo-card reveal"><img src="https://images.pexels.com/photos/4805958/pexels-photo-4805958.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000" loading="lazy" decoding="async" alt="Red fire extinguisher against a gray wall"><span class="photo-story__stamp" aria-hidden="true">LOOK<br>CLOSER ↗</span><div class="photo-card__caption"><span class="photo-card__number">FRAME 01 / EQUIPMENT</span><h3>Make safety visible</h3><p>Find equipment at a glance.</p></div></article>
+  <article class="photo-card reveal"><img src="https://images.pexels.com/photos/8452290/pexels-photo-8452290.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" loading="lazy" decoding="async" alt="Wall-mounted fire extinguisher with safety signage"><div class="photo-card__caption"><span class="photo-card__number">FRAME 02 / PLACEMENT</span><h3>Think about the space</h3><p>Plan for the people who use it.</p></div></article>
+  <article class="photo-card reveal"><img src="https://images.pexels.com/photos/32486734/pexels-photo-32486734/free-photo-of-man-extinguishing-fire-during-safety-training-outdoors.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800" loading="lazy" decoding="async" alt="Person using an extinguisher during a controlled safety demonstration"><div class="photo-card__caption"><span class="photo-card__number">FRAME 03 / READINESS</span><h3>Practice readiness</h3><p>Equipment is one part of preparation.</p></div></article>
+</div></div><div class="photo-band" aria-hidden="true"><div class="photo-band__track"><span>STAY READY <b>✳</b> KNOW YOUR SPACE <b>✳</b> ACT WITH CONFIDENCE <b>✳</b></span><span>STAY READY <b>✳</b> KNOW YOUR SPACE <b>✳</b> ACT WITH CONFIDENCE <b>✳</b></span><span>STAY READY <b>✳</b> KNOW YOUR SPACE <b>✳</b> ACT WITH CONFIDENCE <b>✳</b></span><span>STAY READY <b>✳</b> KNOW YOUR SPACE <b>✳</b> ACT WITH CONFIDENCE <b>✳</b></span></div></div><div class="section-shell photo-story__credit">Illustrative stock photography. Images do not depict NYC Fire Safety staff or projects.</div></section>
+<section class="contact-panel" id="contact" aria-labelledby="contact-title"><div class="section-shell contact-panel__inner"><div class="reveal"><div class="section-label">Your next project starts here</div><h2 id="contact-title">Make readiness part<br>of the plan.</h2><p class="contact-panel__note">Tell the team about your building and extinguisher needs.</p></div><a class="button reveal" href="/contact">Get in touch <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a></div></section>
+</main><footer class="footer"><div class="section-shell"><span>© <span id="year"></span> NYC Fire Safety</span><span class="footer__credit">Designed by <a href="https://nextbusinesssolution.com/" target="_blank" rel="noopener noreferrer">Next Business Solution</a></span><a href="#hero-title">Back to top ↑</a></div></footer>
+<!-- Illustrative stock background video: Val A / Pexels, https://www.pexels.com/video/fire-extinguisher-system-in-industrial-setting-34775765/ . Not footage of this company. -->
+<!-- Integration: replace the concept wordmark with the verified client logo and confirm the specific extinguisher services offered. Confirm the actual /contact route or replace it with the client contact link before publishing. -->
+
+<script>
+// Keep the native cursor; the light and ring follow its position inside each button.
+if (window.matchMedia('(hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)').matches) {
+  document.querySelectorAll('.button, .nav__cta').forEach((button) => {
+    button.addEventListener('pointermove', (event) => {
+      const rect = button.getBoundingClientRect();
+      button.style.setProperty('--pointer-x', `${event.clientX - rect.left}px`);
+      button.style.setProperty('--pointer-y', `${event.clientY - rect.top}px`);
+    }, { passive: true });
+  });
+}
+</script>
+
+<script>
+const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+const phrase = document.getElementById('hero-phrase');
+const phrases = ['comes next.', 'matters most.', 'lies ahead.', 'counts.'];
+let phraseIndex = 0;
+if (phrase && !reducedMotion.matches) {
+  window.setInterval(() => {
+    if (document.hidden) return;
+    phrase.classList.remove('is-entering');
+    phrase.classList.add('is-exiting');
+    window.setTimeout(() => {
+      phraseIndex = (phraseIndex + 1) % phrases.length;
+      phrase.textContent = phrases[phraseIndex];
+      phrase.classList.remove('is-exiting');
+      phrase.classList.add('is-entering');
+    }, 360);
+  }, 3900);
+}
+const reveals = document.querySelectorAll('.reveal');
+if ('IntersectionObserver' in window && !reducedMotion.matches) {
+  const observer = new IntersectionObserver((entries, obs) => {
+    for (const entry of entries) if (entry.isIntersecting) {
+      entry.target.classList.add('in-view');
+      obs.unobserve(entry.target);
+    }
+  }, { threshold: .1 });
+  reveals.forEach(el => observer.observe(el));
+} else reveals.forEach(el => el.classList.add('in-view'));
+document.querySelectorAll('.step').forEach(step => step.addEventListener('click', () => {
+  document.querySelectorAll('.step').forEach(item => {
+    const active = item === step;
+    item.classList.toggle('is-active', active);
+    item.setAttribute('aria-pressed', String(active));
+  });
+  document.getElementById('art-number').textContent = step.dataset.art;
+}));
+document.querySelectorAll('.service-card').forEach(card => card.addEventListener('pointermove', event => {
+  const rect = card.getBoundingClientRect();
+  card.style.setProperty('--card-x', `${event.clientX - rect.left}px`);
+  card.style.setProperty('--card-y', `${event.clientY - rect.top}px`);
+}, { passive: true }));
+
+document.querySelectorAll('.detail-tab').forEach(button => button.addEventListener('click', () => {
+  const sealed = button.dataset.view === 'sealed';
+  document.querySelectorAll('.detail-tab').forEach(tab => tab.setAttribute('aria-pressed', String(tab === button)));
+  document.getElementById('detail-diagram').classList.toggle('is-sealed', sealed);
+  document.getElementById('detail-status').textContent = sealed ? 'Visible and accessible' : 'Needs a closer look';
+  document.getElementById('detail-eyebrow').textContent = sealed ? 'The equipment plan' : 'The open question';
+  document.getElementById('detail-heading').textContent = sealed ? 'Keep it visible' : 'Check the equipment';
+  document.getElementById('detail-description').textContent = sealed
+    ? 'Look at placement, access, and condition so the equipment stays on the team’s radar.'
+    : 'If an extinguisher is missing, blocked, or uncertain, bring that condition into the service conversation.';
+}));
+
+if (window.matchMedia('(hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)').matches) {
+  document.querySelectorAll('.photo-card').forEach(card => {
+    card.addEventListener('pointermove', event => {
+      const rect = card.getBoundingClientRect();
+      card.style.setProperty('--photo-x', `${((event.clientX - rect.left) / rect.width - .5) * -12}px`);
+      card.style.setProperty('--photo-y', `${((event.clientY - rect.top) / rect.height - .5) * -12}px`);
+    }, { passive: true });
+    card.addEventListener('pointerleave', () => {
+      card.style.setProperty('--photo-x', '0px');
+      card.style.setProperty('--photo-y', '0px');
+    });
+  });
+}
+
+// The opener is decorative and dismisses on a fixed timer, independent of network media.
+const loader = document.getElementById('site-loader');
+if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) loader.remove();
+else {
+  const percent = document.getElementById('loader-percent');
+  const started = performance.now();
+  const tick = () => {
+    const progress = Math.min(100, Math.floor((performance.now() - started) / 15.5));
+    percent.textContent = String(progress).padStart(2, '0') + '%';
+    if (progress < 100) requestAnimationFrame(tick);
+    else {
+      loader.classList.add('is-done');
+      window.setTimeout(() => loader.remove(), 700);
+    }
+  };
+  requestAnimationFrame(tick);
+}
+const plannerData = {
+  new: { number: '01', title: 'Plan for the whole property.', copy: 'Map the spaces, occupants, and existing equipment before discussing an extinguisher plan.', points: ['Space and occupancy needs', 'Equipment locations', 'Ongoing service planning'] },
+  renovation: { number: '02', title: 'Account for changing conditions.', copy: 'Temporary layouts, new work areas, and shifting site access can change where teams expect equipment to be.', points: ['Current site layout', 'Accessible equipment points', 'Changes as work progresses'] },
+  facility: { number: '03', title: 'See the whole portfolio.', copy: 'An overview of equipment across locations can help property teams spot gaps and plan conversations about upkeep.', points: ['Locations and equipment inventory', 'Visibility for staff', 'Future maintenance needs'] }
+};
+document.querySelectorAll('.planner-choice').forEach(button => button.addEventListener('click', () => {
+  document.querySelectorAll('.planner-choice').forEach(item => { item.classList.toggle('is-active', item === button); item.setAttribute('aria-pressed', String(item === button)); });
+  const data = plannerData[button.dataset.stage];
+  document.getElementById('planner-number').textContent = data.number;
+  document.getElementById('planner-result-title').textContent = data.title;
+  document.getElementById('planner-result-copy').textContent = data.copy;
+  document.getElementById('planner-result-list').replaceChildren(...data.points.map(point => { const li = document.createElement('li'); li.textContent = point; return li; }));
+}));
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body></html>
